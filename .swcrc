@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false
+    },
+    "preserveAllComments": true,
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+  },
+  "module": {
+    "type": "commonjs",
+    "ignoreDynamic": true
+  },
+  "env": {
+    "targets": {
+      "chrome": "83"
+    },
+    "coreJs": "3.22",
+    "loose": true
+  },
+  "minify": true
+}
