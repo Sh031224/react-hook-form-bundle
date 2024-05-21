@@ -18,12 +18,11 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
+      "types": "./dist/index.d.ts",
       "react-server": "./dist/react-server.esm.mjs",
       "import": "./dist/index.esm.mjs",
-      "types": "./dist/index.d.ts",
       "module": "./dist/index.esm.mjs",
-      "require": "./dist/index.cjs.js",
-      "default": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs.js"
     }
   },
   "scripts": {
