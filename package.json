@@ -2,7 +2,7 @@
   "name": "react-hook-form-cjs",
   "version": "1.0.0",
   "scripts": {
-    "dev": "pnpm run build-react-hook-form && cd ../ && pnpm i && webpack serve --open",
+    "dev": "webpack serve --open",
     "build-react-hook-form": "cd react-hook-form && pnpm i && pnpm run build && pnpm run postbuild"
   },
   "author": "",
