@@ -16,7 +16,6 @@
     "react-hook-form": "file:./react-hook-form",
     "styled-components": "^6.1.11"
   },
-  "packageManager": "pnpm@9.1.2",
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.13",
     "@swc/cli": "^0.3.12",
